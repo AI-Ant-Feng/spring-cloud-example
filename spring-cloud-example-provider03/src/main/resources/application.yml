@@ -1,1 +1,1 @@
-server:  port: 2022  spring:  application:    name: setsail-provider    # 指定当前微服务名称，以便将来通过微服务名称调用当前微服务时能够找到  eureka:  client:    service-url:    # 配置当前微服务作为Eureka客户端访问Eureka服务器端时使用的地址      defaultZone: http://localhost:5000/eureka
+server:  port: 2022  spring:  application:    name: setsail-provider    # 指定当前微服务名称，以便将来通过微服务名称调用当前微服务时能够找到  eureka:  client:    service-url:    # 配置当前微服务作为Eureka客户端访问Eureka服务器端时使用的地址      defaultZone: http://localhost:5000/eurekamanagement:  endpoints:    web:      exposure:        include: hystrix.stream

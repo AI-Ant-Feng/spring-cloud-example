@@ -37,5 +37,7 @@
 		<module>spring-cloud-example-eureka</module>
 		<module>spring-cloud-example-consumer</module>
         <module>spring-cloud-example-consumer-feign</module>
+        <module>spring-cloud-example-dashboard</module>
+        <module>spring-cloud-example-zuul</module>
     </modules>
 </project>
